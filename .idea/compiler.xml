@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="employee-master_main" target="1.8" />
+      <module name="employee-master_test" target="1.8" />
       <module name="employee-microservice_main" target="1.8" />
       <module name="employee-microservice_test" target="1.8" />
     </bytecodeTargetLevel>
