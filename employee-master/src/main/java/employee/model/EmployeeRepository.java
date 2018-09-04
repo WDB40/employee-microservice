@@ -1,4 +1,4 @@
-package controller;
+package employee.model;
 
 import org.springframework.data.repository.CrudRepository;
 

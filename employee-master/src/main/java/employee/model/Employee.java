@@ -1,4 +1,4 @@
-package controller;
+package employee.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
