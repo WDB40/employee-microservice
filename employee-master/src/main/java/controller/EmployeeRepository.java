@@ -1,6 +1,5 @@
 package controller;
 
-import model.Employee;
 import org.springframework.data.repository.CrudRepository;
 
 
