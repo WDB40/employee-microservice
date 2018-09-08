@@ -1,6 +1,6 @@
 package employee.model;
 
-import org.hibernate.validator.constraints.Length;
+import org.hibernate.annotations.ColumnDefault;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,6 +26,7 @@ public class Employee {
 
     @NotNull
     @Size(min=1, max=1)
+    @ColumnDefault("A")
     private String jobStatusCode;
 
     public Integer getEmployeeID() {

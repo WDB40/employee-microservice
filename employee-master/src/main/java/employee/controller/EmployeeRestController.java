@@ -21,7 +21,6 @@ public class EmployeeRestController {
         Employee employee = new Employee();
         employee.setFirstName(firstName);
         employee.setLastName(lastName);
-        employee.setJobStatusCode("A");
 
         employeeRepository.save(employee);
 
