@@ -18,11 +18,14 @@ public class EmployeeController {
 
     @GetMapping("/hire")
     public String hireEmployee(Employee employee){
+        System.out.println("Initial enter into hire form.");
         return "hire";
     }
 
     @PostMapping("/hire")
     public String attemptToHire(@Valid Employee employee, BindingResult result){
+
+        System.out.println("Attempting to validate entry.");
 
         if(result.hasErrors()) {
             return "hire";
