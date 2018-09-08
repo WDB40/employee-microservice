@@ -29,6 +29,7 @@ public class EmployeeController {
         }
 
         employeeRepository.save(employee);
+        return "hired";
     }
 
 }
