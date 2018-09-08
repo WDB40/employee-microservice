@@ -6,6 +6,8 @@
       <module name="employee-master_test" target="1.8" />
       <module name="employee-microservice_main" target="1.8" />
       <module name="employee-microservice_test" target="1.8" />
+      <module name="employee-pay_main" target="1.8" />
+      <module name="employee-pay_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

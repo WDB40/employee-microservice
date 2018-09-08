@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/employee-microservice.iml" filepath="$PROJECT_DIR$/employee-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/employee-microservice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/employee-microservice_main.iml" group="employee-microservice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/employee-microservice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/employee-microservice_test.iml" group="employee-microservice" />
+      <module fileurl="file://$PROJECT_DIR$/employee-pay/employee-pay.iml" filepath="$PROJECT_DIR$/employee-pay/employee-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/employee-pay_main.iml" filepath="$PROJECT_DIR$/.idea/modules/employee-pay_main.iml" group="employee-pay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/employee-pay_test.iml" filepath="$PROJECT_DIR$/.idea/modules/employee-pay_test.iml" group="employee-pay" />
     </modules>
   </component>
 </project>
