@@ -12,17 +12,17 @@ public class Employee {
     private Integer employeeID;
 
     @NotNull
-    @Size(max=20)
+    @Size(min=2, max=20)
     @Column(nullable = false)
     private String firstName;
 
     @NotNull
-    @Size(max=20)
+    @Size(min=2, max=20)
     @Column(nullable = false)
     private String lastName;
 
     @NotNull
-    @Size(max=1)
+    @Size(min=1, max=1)
     @Column(nullable = false)
     private String jobStatusCode;
 
