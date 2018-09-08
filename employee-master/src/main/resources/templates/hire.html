@@ -17,12 +17,12 @@
         <tr>
             <td>Last Name:</td>
             <td><input type="text" th:field="*{lastName}"/></td>
-            <td th:if="${#fields.hasErrors{'lastName')}" th:errors="*{lastName}"></td>
+            <td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></td>
         </tr>
         <tr>
             <td>Job Status Code:</td>
             <td><input type="text" th:field="*{jobStatusCode}"/></td>
-            <td th:if="$(#fields.hasErrors('jobStatusCode')}" th:errors="*{jobStatusCode}"></td>
+            <td th:if="${#fields.hasErrors('jobStatusCode')}" th:errors="*{jobStatusCode}"></td>
         </tr>
         <tr>
             <td><button type="submit">Hire</button></td>
