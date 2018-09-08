@@ -19,7 +19,14 @@
             <td><input type="text" th:field="*{lastName}"/></td>
             <td th:if="${#fields.hasErrors{'lastName')}" th:errors="*{lastName}"></td>
         </tr>
-        <td><button type="submit">Hire</button></td>
+        <tr>
+            <td>Job Status Code:</td>
+            <td><input type="text" th:field="*{jobStatusCode}"/></td>
+            <td th:if="$(#fields.hasErrors('jobStatusCode')}" th:errors="*{jobStatusCode}"></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Hire</button></td>
+        </tr>
     </table>
 </form>
 </body>

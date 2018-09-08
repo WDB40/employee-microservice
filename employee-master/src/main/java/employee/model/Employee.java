@@ -26,7 +26,6 @@ public class Employee {
 
     @NotNull
     @Size(min=1, max=1)
-    @ColumnDefault("A")
     private String jobStatusCode;
 
     public Integer getEmployeeID() {
