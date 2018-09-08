@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(path = "/master")
-public class EmployeeController {
+public class EmployeeRestController {
 
     @Autowired
     private EmployeeRepository employeeRepository;
