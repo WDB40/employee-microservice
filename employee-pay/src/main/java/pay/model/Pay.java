@@ -45,4 +45,17 @@ public class Pay {
     public Integer getEmployeeID() {
         return employeeID;
     }
+
+    public void setEmployeeID(Integer employeeID) {
+        this.employeeID = employeeID;
+    }
+
+    @Override
+    public String toString() {
+        return "Pay{" +
+                "employeeID=" + employeeID +
+                ", payAmount=" + payAmount +
+                ", bonusAmount=" + bonusAmount +
+                '}';
+    }
 }
