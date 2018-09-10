@@ -15,6 +15,8 @@ public class Pay {
 
     private Double bonusAmount;
 
+    public Pay(){}
+
     public Pay(Integer employeeID, Double payAmount) {
         this.employeeID = employeeID;
         this.payAmount = payAmount;
